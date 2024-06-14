@@ -1,0 +1,88 @@
+/* Main window background */
+QshowPlotsWindow {
+    background-color: #2d2d30;
+}
+
+/* General widget settings */
+QWidget {
+    color: #ffffff;
+    background-color: #3c3f41;
+    border: 1px solid #444;
+}
+
+/* QLineEdit settings */
+QLineEdit {
+    background-color: #575757;
+    color: #ffffff;
+    border: 1px solid #444;
+    padding: 2px;
+}
+
+/* QPushButton settings */
+QPushButton {
+    background-color: #444;
+    color: #ffffff;
+    border: 1px solid #555;
+    padding: 5px;
+}
+
+QPushButton:hover {
+    background-color: #555;
+}
+
+QPushButton:pressed {
+    background-color: #333;
+}
+
+/* QSpinBox settings */
+QSpinBox {
+    background-color: #575757;
+    color: #ffffff;
+    border: 1px solid #444;
+    padding: 2px;
+}
+
+/* QCheckBox settings */
+QCheckBox {
+    color: #ffffff;
+}
+
+/* QComboBox settings */
+QComboBox {
+    background-color: #575757;
+    color: #ffffff;
+    border: 1px solid #444;
+}
+
+/* QStatusBar settings */
+QStatusBar {
+    background-color: #2d2d30;
+    color: #ffffff;
+    border-top: 1px solid #444;
+}
+
+/* QMenuBar settings */
+QMenuBar {
+    background-color: #2d2d30;
+    color: #ffffff;
+    border: 1px solid #444;
+}
+
+QMenuBar::item {
+    background: transparent;
+}
+
+QMenuBar::item:selected {
+    background: #444;
+}
+
+QMenu {
+    background-color: #2d2d30;
+    color: #ffffff;
+    border: 1px solid #444;
+}
+
+QMenu::item:selected {
+    background: #444;
+}
+
